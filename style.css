@@ -211,3 +211,29 @@ html {
 .recipe-nutrition .last {
     border-bottom: 0;
 }
+
+@media (min-width: 700px) {
+    body {
+        display: flex;
+        min-height: 100vh;
+        background-color: var(--Eggshell);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .recipe-page {
+        width: 700px;
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+    .recipe-photo {
+        border-radius: 10px;
+    }
+
+    .recipe-info {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+}
